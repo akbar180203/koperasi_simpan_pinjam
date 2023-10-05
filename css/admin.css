@@ -1,0 +1,61 @@
+/* Reset beberapa default style browser */
+.body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styling navigasi */
+nav ul {
+    list-style: none;
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling konten utama */
+.content {
+    display: flex;
+}
+
+/* Styling sidebar */
+aside {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    min-width: 200px;
+}
+
+/* Styling main content */
+main {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+/* Styling footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
