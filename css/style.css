@@ -73,7 +73,9 @@ input {
     border: 1px solid #ccc;
     border-radius: 3px;
     box-sizing: border-box;
-    
+}
+input.error{
+    border: 2px solid red;
 }
 
 
@@ -105,4 +107,6 @@ a:hover {
 a:visited {
     color: #8A2BE2; 
 }
+
+
 
